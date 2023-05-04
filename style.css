@@ -24,7 +24,7 @@ body{
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto 1fr;
     min-height: 100vh;
-    min-width: 725px;
+    min-width: 775px;
     
 }
 
@@ -194,10 +194,38 @@ article{
     background-color: var(--header-color);
     border-left: 8px solid var(--accent-color);
     border-radius: 8px;
-    padding-left: 10px;
+    padding: 0px 10px;
 }
 
 aside{
     margin: 10px;
 }
 
+.announcements-card{
+    background-color: var(--header-color);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.trending-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--header-color);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.user-line{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-text>p{
+    margin: 0px;
+}
+
+.user-subtext{
+    color: var(--icon-color);
+}
